@@ -153,3 +153,24 @@
 	padding-bottom: 1rem;
   
   }
+
+  .about {
+	font-family: Poppins;
+	font-weight: 200;
+	background-color: #2B348B;
+	color: white;
+  }
+  
+  .about-text {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: auto;
+	text-align: left;
+	min-width: 300px;
+	max-width: 50%;
+  }
+  
+  .about-header {
+	font-size: 30px;
+	font-weight: 400;
+  }
