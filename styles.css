@@ -6,12 +6,15 @@
 	margin: 0px;
 	font-family: 'Poppins';
   }
+
+  html {
+	scroll-behavior: smooth;
+  }
   
   .nav {
 	padding: 10px;
 	width: 100%;
 	background-color: #2B348B;
-	position: relative;
   }
   
   .nav > .nav-header {
@@ -23,6 +26,12 @@
 	font-size: 22px;
 	color: #fff;
 	padding: 10px 10px 10px 10px;
+  }
+
+  .nav > .nav-header > .nav-title > a {
+	display: inline-block;
+	text-decoration: none;
+	color: #efefef;
   }
   
   .nav > .nav-btn {
@@ -50,7 +59,7 @@
 	display: none;
   }
   
-  @media (max-width:600px) {
+  @media (max-width:500px) {
 	.nav > .nav-btn {
 	  display: inline-block;
 	  position: absolute;
@@ -76,7 +85,8 @@
 	  position: absolute;
 	  display: block;
 	  width: 100%;
-	  padding: 10px;
+	  padding: 30px;
+	  text-align: left;
 	  background-color: #2B348B;
 	  height: 0px;
 	  transition: all 0.3s ease-in;
@@ -104,6 +114,8 @@
   
   .newHeader-headline {
 	padding: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
   }
   
   .newHeader-h1 {
@@ -144,6 +156,7 @@
   }
   
   .column {
+	color: #313639;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -186,6 +199,7 @@
   }
   
   .technical-text {
+	color: #313639;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	margin: auto;
@@ -199,15 +213,36 @@
 	font-weight: 400;
   }
 
+  .skills-logos {
+	  font-size: 50px;
+	  color: #2B348B;
+	  text-align: center;
+  }
+
+  #logo {
+	  padding-left: 5px;
+  }
+
   /* Footer */
   .footer {
 	background-color: #2B348B;
 	color: #fff;
 	font-family: Poppins;
 	font-weight: 200;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 	margin: auto;
 	text-align: center;
 
   }
+
+  .footer-text > a {
+	  color: #fff;
+	  font-size: 25px;
+	  text-decoration: none;
+	  padding-left: 10px;
+  }
+
+  .footer-text > a:hover {
+	color: #FFCC43;
+}
