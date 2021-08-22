@@ -296,6 +296,7 @@
   
   .card-media {
 	width: 100%;
+	max-width: 300px;
 	/* border-top-left-radius: 8px;
 	border-top-right-radius: 8px; */
   }
