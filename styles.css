@@ -249,26 +249,21 @@
 }
 
 /* Card */
-.flex-grid-thirds {
+
+.flex-grid {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #F5F5F5;
   }
-  .flex-grid-thirds .col {
-	width: 30%;
+  .col {
+	flex: 1;
+	padding: 10px;
   }
 
-  @media (max-width: 600px) {
-	.flex-grid-thirds {
+  @media (max-width: 400px) {
+	.flex-grid {
 	  display: block;
 	}
   }
 
-  .col {
-	padding: 20px;
-  }
-  
   .clearfix:before,
   .clearfix:after {
 	  content: " ";
