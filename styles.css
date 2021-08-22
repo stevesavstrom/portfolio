@@ -247,3 +247,82 @@
   .footer-text > a:hover {
 	color: #cccccc;
 }
+
+/* Card */
+.flex-grid-thirds {
+	display: flex;
+	justify-content:center;
+	background-color: #F5F5F5;
+  }
+  .flex-grid-thirds .col {
+	width: 30%;
+  }
+
+  @media (max-width: 600px) {
+	.flex-grid-thirds {
+	  display: block;
+	}
+  }
+
+  .col {
+	padding: 20px;
+  }
+  
+  .clearfix:before,
+  .clearfix:after {
+	  content: " ";
+	  display: table;
+  }
+  
+  .clearfix:after {
+	  clear: both;
+  }
+  
+  .card-wrapper {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+  }
+
+  .card {
+	background-color: #fff;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: -1px 2px 4px rgba(0,0,0,.25), 1px 1px 3px rgba(0,0,0,.1);
+	margin: 0 auto;
+	min-width: 300px;
+	width: 100%;
+  }
+  
+  .card-media {
+	width: 100%;
+	/* border-top-left-radius: 8px;
+	border-top-right-radius: 8px; */
+  }
+  
+  .card-details {
+	padding: 5px 15px;
+  }
+  
+  .card-head {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 26px;
+	color: #313639;
+	margin-bottom: 15px;
+  }
+  
+  .card-action-button {
+	border-radius: 2px;
+	color: #313639;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 500;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+  }
+  
+  .card-action-button:hover {
+	color: #5a5a5a;
+  }
