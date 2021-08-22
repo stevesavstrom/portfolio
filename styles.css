@@ -52,7 +52,7 @@
   }
   
   .nav > .nav-links > a:hover {
-	color: #d4d4d4;
+	color: #cccccc;
   }
   
   .nav > #nav-check {
@@ -216,7 +216,7 @@
 
   .skills-logos {
 	  font-size: 50px;
-	  color: #2B348B;
+	  color: #313639;
 	  text-align: center;
   }
 
@@ -245,5 +245,5 @@
   }
 
   .footer-text > a:hover {
-	color: #FFCC43;
+	color: #cccccc;
 }
