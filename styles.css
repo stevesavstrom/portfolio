@@ -86,7 +86,8 @@
 	  display: block;
 	  width: 100%;
 	  padding: 0px;
-	  text-align: left;
+	  font-size: 20px;
+	  text-align: center;
 	  background-color: #2B348B;
 	  height: 0px;
 	  transition: all 0.3s ease-in;
