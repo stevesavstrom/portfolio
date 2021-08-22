@@ -127,7 +127,7 @@
 	border-radius: 50%;
   }
   
-  .some-page-wrapper {
+  .header-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -154,6 +154,8 @@
   
   }
 
+  /* About Section */
+
   .about {
 	font-family: Poppins;
 	font-weight: 200;
@@ -173,4 +175,39 @@
   .about-header {
 	font-size: 30px;
 	font-weight: 400;
+  }
+
+  /* Technical Skills Section */
+  .technical {
+	font-family: Poppins;
+	font-weight: 200;
+	background-color: #F5F5F5;
+	color: black;
+  }
+  
+  .technical-text {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: auto;
+	text-align: left;
+	min-width: 300px;
+	max-width: 50%;
+  }
+  
+  .technical-header {
+	font-size: 30px;
+	font-weight: 400;
+  }
+
+  /* Footer */
+  .footer {
+	background-color: #2B348B;
+	color: #fff;
+	font-family: Poppins;
+	font-weight: 200;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: auto;
+	text-align: center;
+
   }
