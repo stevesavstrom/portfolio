@@ -165,8 +165,22 @@
 	flex-basis: 100%;
 	flex: 1;
 	padding-bottom: 1rem;
+  }
+
+  .header-column-2 > a {
+	text-decoration: underline;
+	color: #2B348B;
+	border-radius: 3px;
+	padding: 1px;
+  }
+
+  .header-column-2 > a:hover {
+	text-decoration: underline;
+	color: #313639;
+	transition: 0.5s;
   
   }
+
 
   /* About Section */
 
@@ -184,6 +198,21 @@
 	text-align: left;
 	min-width: 300px;
 	max-width: 50%;
+  }
+
+  .about-paragraph > a {
+	text-decoration: underline;
+	color: #fff;
+	border-radius: 3px;
+	padding: 1px;
+  }
+
+  .about-paragraph > a:hover {
+	text-decoration: underline;
+	color: #FFD23B;
+	border-radius: 3px;
+	padding: 1px;
+	transition: 0.5s;
   }
   
   .about-header {
