@@ -290,9 +290,9 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	background-color: #F5F5F5;
   }
 
@@ -339,6 +339,7 @@
 	margin: auto;
 	min-width: 300px;
 	min-height: 470px;
+	max-height: 100vh;
 	width: 97%;
   }
   
