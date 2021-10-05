@@ -188,7 +188,6 @@
   
   }
 
-
   /* About Section */
 
   .about {
@@ -232,7 +231,7 @@
 	font-family: Poppins;
 	font-weight: 200;
 	background-color: #F5F5F5;
-	color: black;
+	color: #000000;
   }
   
   .technical-text {
