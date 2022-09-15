@@ -1,162 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Steve Savstrom is a full stack software developer based in Minneapolis, MN">
-	<meta name="keywords" content="Steve Savstrom, Software Developer, Software Engineer, React, JavaScript, Node.js, PostgreSQL, HTML, CSS">
-	<meta name="author" content="Steve Savstrom">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Steve Savstrom Full Stack Developer</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
 	<!-- Favicon -->
 	<link rel="icon" type="image/ico" href="img/favicon.ico"/>
-	<!-- Font Awesome icons (free version)-->
-	<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-	<!-- Google fonts-->
-	<link
-		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700&display=swap"
-		rel="stylesheet">
-	<!-- CSS -->
-	<link href="styles.css" rel="stylesheet" />
-
+	<title>Steve Savstrom</title>
 </head>
-
 <body>
-	<section class="fade-in-section">
 
-	<!-- Navigation -->
-	<div class="nav" id="nav">
-		<input type="checkbox" id="nav-check">
-		<div class="nav-header">
-			<div class="nav-title">
-				<a href="/">Steve Savstrom</a>
-			</div>
-		</div>
-		<div class="nav-btn">
-			<label for="nav-check">
-				<span></span>
-				<span></span>
-				<span></span>
-			</label>
-		</div>
+	<header class="header">
+		<h1 class="logo"><a class="logo" href="/index.html">Steve Savstrom</a></h1>
+      <ul class="main-nav">
+          <li><a href="#">Home</a></li>
+		  <li><a href="/about/index.html">About</a></li>
+          <li><a href="/resources/index.html">Resources</a></li>
+          <li><a href="https://www.linkedin.com/in/stevesavstrom/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://twitter.com/stevesavstrom" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://github.com/stevesavstrom" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+	</header>
 
-		<div class="nav-links">
-			<a href="#about">About</a>
-			<a href="#technical-skills">Skills</a>
-			<a href="#portfolio">Portfolio</a>
-			<a href="#footer" >Contact</a>
-			<a href="https://www.linkedin.com/in/stevesavstrom/"><i
-					class="fab fa-linkedin fa-lg"></i></a>
-			<a href="https://github.com/stevesavstrom"><i class="fab fa-github fa-lg"></i></a>
-		</div>
-	</div>
+	<article>
+		<h1><a href="/articles/aws-cloud-practitioner-exam/index.html">How to Pass the AWS Certified Cloud Practitioner Exam</a></h1>
+		<p>Thinking about taking the AWS Certified Cloud Practitioner exam? I passed the exam last weekend and I am excited to take my first step in cloud computing! I want to share my experience and how I prepared. <a href="/articles/aws-cloud-practitioner-exam/index.html"><strong>»</strong></a>
+		</p>
+		<p class="date">22 AUGUST 2022</p>
+		<hr>
+	</article>
 
-	<!-- Headline -->
-	<section id="header">
-		<div class="newHeader-headline">
-			<h1 class="newHeader-h1">👋 Hi, I'm Steve!</h1>
-			<h2 class="newHeader-h2">I build full stack web applications.</h2>
-		</div>
+	<article>
+		<h1><a href="/articles/thrive-at-prime-digital-academy/">How to Thrive at Prime Digital Academy</a></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et turpis eget libero pulvinar laoreet non eu turpis. Donec scelerisque arcu massa, eget hendrerit libero efficitur nec. Aliquam varius nec nunc non cursus. Nam eget sem est. Sed dapibus scelerisque sagittis. Morbi quis vehicula ante. In quis dui in ex condimentum tincidunt sit amet et enim. »
+		</p>
+		<p class="date">27 SEPTEMBER 2021</p>
+		<hr>
+	</article>
 
-		<div class='header-wrapper'>
-			<div class='row'>
-				<div class='column'>
-					<div class='header-column-1'>
-						<img class="newHeader-img" src="img/01.jpg" loading="lazy"/>
-					</div>
-				</div>
-				<div class='column'>
-					<div class='header-column-2'>
-						I'm a full stack software engineer with experience creating web applications using JavaScript, React, Node.js, PostgreSQL, Express, and other modern technologies. I am currently a Full Stack Software Engineering Student at <a href="https://www.primeacademy.io/">Prime Digital Academy</a> in Minneapolis. At Prime, I built, <a href="https://github.com/stevesavstrom/flash-gig">Flash Gig</a>, an application that helps wedding photographers and videographers connect
-						with second shooters, editors, and assistants for short-term gigs. Flash Gig was created using React, Redux, Saga, Node.js, Express, PostgreSQL, Material-UI., and Google Maps API.
-					</div>
-				</div>
-			</div>
-		</div>
+	<article>
+		<h1><a href="/posts/aws-exam/index.html">How to Pass the AWS Certified Cloud Practitioner Exam</a></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et turpis eget libero pulvinar laoreet non eu turpis. Donec scelerisque arcu massa, eget hendrerit libero efficitur nec. Aliquam varius nec nunc non cursus. Nam eget sem est. Sed dapibus scelerisque sagittis. Morbi quis vehicula ante. In quis dui in ex condimentum tincidunt sit amet et enim. »
+		</p>
+		<p class="date">22 AUGUST 2022</p>
+		<hr>
+	</article>
+
+	<section class="copyright">
+		<p class="copyright-text">&copy; 2022 Steve Savstrom</p>
 	</section>
-
-	<!-- About --  -->
-	<section id="about">
-        <div class="about">
-            <div class="about-text">
-                <h1 class="about-header">Get to Know Me</h1>
-                <p class="about-paragraph">I'm a teacher at heart. After graduating from <a href="https://www.augsburg.edu/">Augsburg University</a> in 2008, I moved to Seoul, South Korea where I taught English from 2009-2012. After returning to the United States, I moved to Chicago as a 2013 <a href="https://www.teachforamerica.org/">Teach For America</a> corps member. During my Teach For America experience I taught middle school and completed a <a href="https://nl.edu/national-college-of-education/programs/teacher-preparation/mat-in-special-education/">master's degree</a> in Special Education at <a href="https://nl.edu/national-college-of-education/">National Louis University</a>. In 2015, I returned home to Minnesota and joined <a href="https://roosevelt.mpls.k12.mn.us/">Roosevelt High School</a> as a special education resource teacher and case manager. In 2018, I founded <a href="https://www.savstrom.com/">Savstrom Studios</a>, a wedding videography company. In 2021 I started my coding journey and joined <a href="https://www.primeacademy.io/">Prime Digital Academy</a> as a <a href="https://www.primeacademy.io/courses/engineering">Full Stack Software Engineering</a> student.</p>
-            </div>
-        </div>
-    </section>
-
-			<!-- Technical Skills -->
-			<section id="technical-skills">
-				<div class="technical">
-					<div class="technical-text">
-						<h1 class="technical-header">Technical Skills</h1>
-						<p>JavaScript, React, React Redux, Redux-Saga, Node.js, PostgreSQL, Express, APIs, HTML, CSS, jQuery, Git, Github, Jest, Material-UI, Adobe Premiere Pro, Project Management, Client Service, Video Production
-							</p>
-						<div class="skills-logos">
-						<i class="fab fa-react fa-lg" id="logo"></i>
-						<i class="fab fa-node fa-lg" id="logo"></i>
-						<i class="fab fa-js-square fa-lg" id="logo"></i>
-						<i class="fab fa-git-square fa-lg" id="logo"></i>
-						<i class="fab fa-html5 fa-lg" id="logo"></i>
-						<i class="fab fa-css3-alt fa-lg" id="logo"></i>
-						<i class="fab fa-github fa-lg" id="logo"></i>
-					</div>
-					</div>
-				</div>
-			</section>
-
-	<!-- Portfolio -->
-	<section id="portfolio">
-		<!-- Start Portfolio Grid -->
-		<div class="flex-grid">
-			<div class="col"><div class="card">
-				<img src="img/08.gif" class="card-media" loading="lazy"/>
-				<div class="card-details">
-				  <h2 class="card-head">Flash Gig</h2>
-				  <p>Flash Gig helps wedding photographers and videographers connect with second shooters, editors, and assistants for short-term gigs.</p>
-				  <a href="https://github.com/stevesavstrom/flash-gig" class="card-action-button"><i class="fab fa-github fa-lg"></i> GitHub</a>
-				</div>
-			  </div></div>
-			<div class="col"><div class="card">
-				<img src="img/02.gif" class="card-media" loading="lazy"/>
-				<div class="card-details">
-				  <h2 class="card-head">Movies Database</h2>
-				  <p>Movie management application that allows users to browse movies, access movie details, and add new movies to the database.</p>
-				  <a href="https://github.com/stevesavstrom/weekend-movie-sagas" class="card-action-button"><i class="fab fa-github fa-lg"></i> GitHub</a>
-				</div>
-			  </div></div>
-			<div class="col"><div class="card">
-				<img src="img/09.gif" class="card-media" loading="lazy"/>
-				<div class="card-details">
-				  <h2 class="card-head">Feedback Loop</h2>
-				  <p>Multi-step feedback and reflection form. Built with React, Redux, Node.js, PostgreSQL, and Material-UI.</p>
-				  <a href="https://github.com/stevesavstrom/weekend-redux-feedback-loop" class="card-action-button"><i class="fab fa-github fa-lg"></i> GitHub</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-
-			<!-- End Portfolio Grid -->
-		  </div>
-		</div>
-	</section>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="footer">
-				<div class="footer-text">
-					<p>Thanks for stopping by! Let's connect!</p>
-					<p>steve.savstrom@gmail.com</p>
-					<a href="https://github.com/stevesavstrom"><i class="fab fa-github fa-lg"></i></a>
-					<a href="https://www.linkedin.com/in/stevesavstrom/"><i class="fab fa-linkedin fa-lg"></i></a>
-					<a href="https://twitter.com/stevesavstrom"><i class="fab fa-twitter fa-lg"></i></a>
-					<a href="https://www.instagram.com/stevesavstrom/"><i class="fab fa-instagram fa-lg"></i></a>
-				</div>
-			</div>
-		</section>
-	</section>
-</section>
 </body>
-
 </html>
