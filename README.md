@@ -4,4 +4,4 @@ This is my personal portfolio website created with HTML, CSS, and deployed on [N
 
 Check it out here:
 
-[www.stevesavstrom.dev](https://www.stevesavstrom.dev/)
+[www.stevesavstrom.com](https://www.stevesavstrom.com/)
