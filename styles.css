@@ -10,11 +10,11 @@ body {
 	padding: 1.7rem;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 77ch;
+	max-width: 75ch;
 }
 
 h1 {
-	font-size: 34px;
+	font-size: 1.6rem;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-weight:300;
 }
 
@@ -34,12 +34,21 @@ ul {
 
 li{
 	padding-bottom: 5px;
+	font-size: 1.2rem;
 }
 
 a {
 	text-decoration: none;
 	color: #2B348B;
 	font-weight: 400;
+}
+
+hr {
+    border: none;
+    height: 0.1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
 }
 
 a:hover {
@@ -49,6 +58,7 @@ a:hover {
 .logo {
 	margin: 0;
 	font-size: 2.5rem;
+	font-weight: 600;
 	color: #2B348B;
 }
 
@@ -86,8 +96,8 @@ a:hover {
 }
 
 .date {
-	font-size: 0.8rem;
-	color: gray;
+	font-size: 1rem;
+	color: rgb(74, 74, 74);
 	padding-bottom: 0.6rem;
 }
 
@@ -113,7 +123,6 @@ a:hover {
 	.header {
 		flex-direction: column;
 		align-items: center;
-
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
